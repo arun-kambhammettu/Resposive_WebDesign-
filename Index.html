@@ -1,0 +1,235 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="Assests/CSS/base.css" rel="stylesheet" type="text/css" />
+    <link href="Assests/CSS/layout.css" rel="stylesheet" type="text/css" />
+    <script src="Assests/JS/jquery-1.8.2.min.js" type="text/javascript"></script>
+    <script src="Assests/JS/layout.js" type="text/javascript"></script>
+    <script src="Assests/JS/jquery-1.9.1.js" type="text/javascript"></script>
+    <script src="Assests/JS/jquery-ui.js" type="text/javascript"></script>
+    <link href="Assests/CSS/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="http://localhost:12672/CSS/myStyle.css" rel="stylesheet" type="text/css" />
+    <script src="http://localhost:12672/JS/s3Slider.js" type="text/javascript"></script>
+    <script src="http://localhost:12672/JS/Slider.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="mainDiv" style="margin-right: 2%;">
+        <!--Header design starts here-->
+        <div id="header" class="sixteen columns displayBlock" style="margin-top: 3%">
+            <div id="logo" class="two columns shadow" style="width: 15%; height: 50px; margin-left: 5%;
+                background-color: Red;">
+                <span>LOGO</span></div>
+            <div id="divTexts" class="eight columns" style="float: right;">
+                <div id="text1" class="five columns shadow marginLeft0per" style="background-color: #b5e61d;
+                    height: 50px;">
+                    <span>TEXT1</span></div>
+                <div id="text2" class="five columns shadow marginLeft0per" style="background-color: #b5e61d;
+                    height: 50px;">
+                    <span>TEXT2</span></div>
+                <div id="text3" class="five columns shadow marginLeft0per" style="background-color: #b5e61d;
+                    height: 50px;">
+                    <span>TEXT3</span></div>
+            </div>
+        </div>
+        <!--Header design Ends here-->
+        <!--Menu bar design starts here-->
+        <div id="displayNoneMobileMenuBar">
+            <div id="mobileMenuheader">
+                <a href="#">
+                    <input id="mobileMenuHeader" type="button" value="Menu 1" style="background-color: #ff7f27;
+                        width: 35%; color: White; float: left;" class="four columns shadow marginLeft0per" /></a>
+                <div id="menuBar" class="sixteen columns HiddenDiv" style="margin-top: 1%; margin-left: 5%;">
+                    <div id="menu1">
+                        <a href="#">
+                            <input id="btnMenu1" type="button" value="Menu 1" style="background-color: #ff7f27;
+                                height: 50px; width: 18%; color: White;" class="four columns shadow marginLeft0per" /></a></div>
+                    <div id="menu2">
+                        <a href="#">
+                            <input id="btnMenu2" type="button" value="Menu 2" style="background-color: #ff7f27;
+                                height: 50px; width: 18%; color: White;" class="four columns shadow marginLeft0per" /></a></div>
+                    <div id="menu3">
+                        <a href="#">
+                            <input id="btnMenu3" type="button" value="Menu 3" style="background-color: #ff7f27;
+                                height: 50px; width: 18%; color: White;" class="four columns shadow marginLeft0per" /></a></div>
+                    <div id="menu4">
+                        <a href="#">
+                            <input id="btnMenu4" type="button" value="Menu 4" style="background-color: #ff7f27;
+                                height: 50px; width: 18%; color: White;" class="four columns shadow marginLeft0per" /></a></div>
+                    <div id="blankSpace">
+                        <a href="#">
+                            <input id="btnMenu5" type="button" value="Blank Space" style="background-color: #ff7f27;
+                                height: 50px; width: 18%; color: White;" class="four columns shadow marginLeft0per" /></a></div>
+                </div>
+            </div>
+            <div id="mobileSubMenuHeader">
+                <a href="#">
+                    <input id="mobilesubMenuHeader" type="button" value="Menu 2" style="background-color: #ffaec9;
+                        width: 35%; color: White; float: right;" class="four columns shadow marginLeft0per" /></a>
+                <div id="SubmenuBar" class="sixteen columns displayNoneDesktop" style="margin-top: 1%;
+                    margin-left: 5%;">
+                    <div id="Menu2 1">
+                        <a href="#">
+                            <input id="subMenuBtn1" type="button" value="Menu2 1" style="background-color: #ffaec9;
+                                height: 50px; width: 18%; color: White;" class="four columns shadow marginLeft0per" /></a></div>
+                    <div id="Menu2 2">
+                        <a href="#">
+                            <input id="subMenuBtn2" type="button" value="Menu2 2" style="background-color: #ffaec9;
+                                height: 50px; width: 18%; color: White;" class="four columns shadow marginLeft0per" /></a></div>
+                    <div id="Menu2 3">
+                        <a href="#">
+                            <input id="subMenuBtn3" type="button" value="Menu2 3" style="background-color: #ffaec9;
+                                height: 50px; width: 18%; color: White;" class="four columns shadow marginLeft0per" /></a></div>
+                    <div id="Menu2 4">
+                        <a href="#">
+                            <input id="subMenuBtn4" type="button" value="Menu2 4" style="background-color: #ffaec9;
+                                height: 50px; width: 18%; color: White;" class="four columns shadow marginLeft0per" /></a></div>
+                    <div id="Div7">
+                        <a href="#">
+                            <input id="subMenuBtn5" type="button" value="Blank Space" style="background-color: #ffaec9;
+                                height: 50px; width: 18%; color: White;" class="four columns shadow marginLeft0per" /></a></div>
+                </div>
+            </div>
+        </div>
+        <!--Menu bar design Ends here-->
+        <!--Mobile Menu bar design starts here-->
+        <div id="divmobileMenu" style="margin-top: 2%; margin-left: 3%;">
+            <ul id="divMobileSliderMenu" class="four columns sliders ">
+                <li class="shadow height20px" style="float: left; width: 80%;">Menu 1</li>
+                <li class="shadow height20px" style="float: left; width: 80%;">Menu 2</li>
+                <li class="shadow height20px" style="float: left; width: 80%;">Menu 3</li>
+                <li class="shadow height20px" style="float: left; width: 80%;">Menu 4</li>
+            </ul>
+        </div>
+        <!--Menu bar design Ends here-->
+        <!--SUB-Menu bar design starts here-->
+        <div id="divSubMenu" class="sixteen columns">
+            <div id="sub-menu" class="four columns" style="margin-top: 1%; margin-left: 3%;">
+                <ul>
+                    <li style="height: 50px; width: 80%;" class="marginBottom shadow">
+                        <input id="id1" type="button" style="width: 100%; height: 100%; background-color: #ffaec9;
+                            color: White;" value="Menu1 1" /></li>
+                    <li style="background-color: #ffaec9; height: 50px; width: 80%; color: Black;" class="marginBottom shadow">
+                        <input id="id2" type="button" style="width: 100%; height: 100%; background-color: #ffaec9;
+                            color: White;" value="Menu1 2" /></li>
+                    <li style="background-color: #ffaec9; height: 50px; width: 80%; color: Black;" class="marginBottom shadow">
+                        <input id="id3" type="button" style="width: 100%; height: 100%; background-color: #ffaec9;
+                            color: White;" value="Menu1 3" /></li>
+                    <li style="background-color: #ffaec9; height: 50px; width: 80%; color: Black;" class="marginBottom shadow">
+                        <input id="id4" type="button" style="width: 100%; height: 100%; background-color: #ffaec9;
+                            color: White;" value="Menu1 4" /></li>
+                    <li style="background-color: #ffaec9; height: 400px; width: 80%; color: Black;" class="marginBottom shadow">
+                        <input id="id5" type="button" style="width: 100%; height: 100%; background-color: #ffaec9;
+                            color: White;" value="Blank Space" /></li>
+                </ul>
+            </div>
+            <!--SUB-Menu bar design Ends here-->
+            <!--Content box design Starts here-->
+            <div id="contentBox" class="nine columns shadow" style="background-color: #3f48cc;
+                height: 600px; width: 64.5%; color: white; margin-top: 1%; float: left;">
+                <div id="firstColumn" class="four columns" style="margin-top: 2%;">
+                    <div id="textBlock" class="six columns shadow" style="height: 40px; width: 100%;
+                        margin-top: 2%; margin-left: 2%;">
+                        <span>Text1</span></div>
+                    <div id="imageBlock" class="six columns shadow" style="height: 100px; width: 100%;
+                        margin-top: 12%; margin-left: 2%;">
+                        <span>Image 1</span></div>
+                    <div id="textDivRows" class="six columns shadow" style="height: 340px; width: 100%;
+                        margin-top: 12%; margin-left: 2%; margin-right: 2%;">
+                        <span>Text Div with Multiple Rows</span></div>
+                </div>
+
+                <div id="secondColumn" class="eleven columns" style="margin-top: 2%;">
+                    <div id="imageAddrotator" class="columns shadow" style="height: 160px; width: 100%;
+                        margin-top: 1%; margin-left: 2%;">
+                        <div id="s3slider eleven columns">
+                            <ul id="s3sliderContent">
+                                <li class="s3sliderImage">
+                                    <img src="http://localhost:12672/Images/slide1.png" />
+                                    <span>Hello DNS'..</span> </li>
+                                <li class="s3sliderImage">
+                                    <img src="http://localhost:12672/Images/slide2.png" />
+                                    <span>Do something</span> </li>
+                                <div class="clear s3sliderImage">
+                                </div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div id="tabSelector" class="sixteen columns tabSelectorNoshadow" style="height: 30px;
+                        margin-top: 4%; margin-left: 2%;">
+                        <div id="tabsSelection" class="sixteen columns">
+                            <div id="tab1" class="two columns tabSelectorNoshadow marginLeft0per" style="background-color: #3f48cc;
+                                height: 30px; width: 17%; float: left;">
+                                <input id="btn1" type="button" value="Tab 1" /></div>
+                            <div id="tab6" class="columns tabSelectorNoshadow marginLeft0per" style="background-color: #3f48cc;
+                                height: 30px; width: 17%; float: right;">
+                                <input id="btn6" type="button" value="Tab 6" /></div>
+                            <div id="tab5" class="columns tabSelectorNoshadow marginLeft0per" style="background-color: #3f48cc;
+                                height: 30px; width: 16%; float: right;">
+                                <input id="btn5" type="button" value="Tab 5" /></div>
+                            <div id="tab4" class="columns tabSelectorNoshadow marginLeft0per" style="background-color: #3f48cc;
+                                height: 30px; width: 17%; float: right;">
+                                <input id="btn4" type="button" value="Tab 4" /></div>
+                            <div id="tab3" class="columns tabSelectorNoshadow marginLeft0per" style="background-color: #3f48cc;
+                                height: 30px; width: 16%; float: right;">
+                                <input id="btn3" type="button" value="Tab 3" /></div>
+                            <div id="tab2" class="columns tabSelectorNoshadow marginLeft0per" style="background-color: #3f48cc;
+                                height: 30px; width: 17%; float: right;">
+                                <input id="btn2" type="button" value="Tab 2" /></div>
+                        </div>
+                    </div>
+                    <div id="tabs" class=" columns shadow" style="height: 310px; width: 100%; margin-left: 2%;">
+                        <span>selected tab</span></div>
+                    <div id="accordianMobileView" class="sixteen columns displayNoneDesktop">
+                        <div id="accordion" style="height: 90px;">
+                            <h3>
+                                Tab 1</h3>
+                            <div>
+                                <p>
+                                    Displays content of Tab 1</p>
+                            </div>
+                            <h3>
+                                Tab 2</h3>
+                            <div>
+                                <p>
+                                    Displays content of Tab 2
+                                </p>
+                            </div>
+                            <h3>
+                                Tab 3</h3>
+                            <div>
+                                <p>
+                                    Displays content of Tab 3
+                                </p>
+                                <ul>
+                                    <li>List item one</li>
+                                    <li>List item two</li>
+                                    <li>List item three</li>
+                                </ul>
+                            </div>
+                            <h3>
+                                Tab 4</h3>
+                            <div>
+                                <p>
+                                    Displays Content of Tab 4
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Content box design Ends here-->
+        </div>
+        <!--Footer box design Starts here-->
+        <div id="footer" class="sixteen columns" style="margin-left: 5%;">
+            <div id="footer1" class="five columns shadow marginLeft0per" style="background-color: #b97a57;">
+                Footer 1</div>
+            <div id="footer2" class="five columns shadow marginLeft0per" style="background-color: #b97a57;">
+                Footer 2</div>
+            <div id="footer3" class="five columns shadow marginLeft0per" style="background-color: #b97a57;">
+                Footer 3</div>
+        </div>
+        <!--Footer box design Ends here-->
+    </div>
+</body>
+</html>

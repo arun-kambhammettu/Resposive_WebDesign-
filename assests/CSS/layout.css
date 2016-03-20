@@ -1,0 +1,279 @@
+﻿/*Mobile css*/
+@media only screen and (max-width: 639px)
+{
+    #logo
+    {
+        width: 35% !important;
+        height: 69px !important;
+        margin-left: 3% !important;
+        background-color: red;
+        float: left;
+    }
+    #header
+    {
+        float: left;
+        width: 100% !important;
+    }
+    .shadow
+    {
+        box-shadow: 5px 5px 5px #888888;
+        border-style: solid;
+        border-width: 1px;
+    }
+    #divTexts
+    {
+        float: right !important;
+        width: 50%;
+    }
+    #text1
+    {
+        height: 23px !important;
+        font-size: 10px !important;
+    }
+    #text2
+    {
+        height: 23px !important;
+        font-size: 10px !important;
+    }
+    #text3
+    {
+        height: 23px !important;
+        font-size: 10px !important;
+    }
+
+    .height20px
+    {
+        height: 20px !important;
+    }
+    #divMobileSliderMenu
+    {
+        margin-top: 2% !important;
+        margin-bottom: 0% !important;
+        width: 70% !important;
+    }
+    #sub-menu
+    {
+        display: none;
+    }
+    #divMobileSliderMenu li
+    {
+        width: 50% !important;
+    }
+    #divmobileMenu
+    {
+        display: none;
+    }
+    #contentBox
+    {
+        width: 97% !important;
+        margin-left: 3% !important;
+        margin-top: 2% !important;
+    }
+    #textDivRows
+    {
+        float: right !important;
+    }
+    #imageBlock, #textDivRows, #textBlock
+    {
+        height: 50px !important;
+        margin-top: 2% !important;
+    }
+    #imageBlock
+    {
+        width: 40% !important;
+        float: left;
+    }
+    #textDivRows
+    {
+        width: 50% !important;
+        margin-left: 0% !important;
+    }
+    #secondColumn
+    {
+        width: 100%;
+        clear: both;
+        padding-top: 2% !important;
+    }
+    .tabSelectorNoshadow
+    {
+        border-style: solid;
+        border-width: 1px;
+    }
+    #mobileMenuheader, #mobileSubMenuHeader
+    {
+        display: block;
+        margin-left: 3%;
+    }
+
+    #menuBar, #SubmenuBar
+    {
+        display: none;
+        position: absolute;
+        z-index: 999;
+    }
+
+    #menuBar input[type="button"]
+    {
+        margin-bottom: 0% !important;
+        height: 20px !important;
+        width: 35% !important;
+    }
+    #SubmenuBar input[type="button"]
+    {
+        margin-bottom: 0% !important;
+        height: 20px !important;
+        width: 35% !important;
+    }
+    #divSubMenu
+    {
+        float: left;
+    }
+    #footer
+    {
+        float: right;
+        margin-top: 2% !important;
+    }
+    #footer1, #footer2, #footer3
+    {
+        height: 22px;
+        width: 96% !important;
+        margin-left: 4% !important;
+        font-size: 12px !important;
+    }
+    #header
+    {
+        margin-bottom: 2% !important;
+    }
+    #textBlock
+    {
+        margin-left:2% !important;
+        width:96% !important;
+        margin-right:1% !important;
+    }
+     #imageAddrotator,#accordion
+    {
+        margin-left:2% !important;
+        width:96% !important;
+        margin-right:1% !important;
+    }
+    #tabSelector,#tabs
+    {
+        margin-left:2% !important;
+        width:96% !important;
+        margin-right:1% !important;
+    }
+    #tabsSelection input[type="button"]
+    {
+        width:98%;
+        background-color:#e17a34;
+    }
+    .displayNone
+    {
+        display:none;
+    }
+   #accordion h3
+   {
+       height:30px;
+       padding-top:1% !important;
+   }
+    #accordion
+   {
+       margin-top:2%;
+       padding-bottom:1%;
+   }
+   #menuBar input[type="button"]
+   {
+      height:30% !important;
+      width:100% !important;
+   }
+   #SubmenuBar input[type="button"]
+   {
+      height:30% !important;
+        width:100% !important;
+   }
+   #firstColumn span
+   {
+       font-size:13px;
+      
+   }
+   #imageAddrotator span
+   {
+       font-size:13px;
+   }
+   #textBlock, #imageBlock, #textDivRows, #imageAddrotator,#logo
+   {
+       text-align:center !important;
+       padding-top:2%;
+   }
+   #divTexts
+   {
+       text-align:center;
+   }
+   
+}
+/*Desktop CSS*/
+@media only screen and (min-width: 639px)
+{
+     #textBlock, #imageBlock, #textDivRows, #imageAddrotator,#logo
+   {
+       text-align:center !important;
+       padding-top:2%;
+   }
+   #divTexts
+   {
+       text-align:center;
+       padding-top:0% !important;
+   }
+    #tabsSelection input[type="button"]
+    {
+        width:98%;
+         background-color:#e17a34;
+    }
+    #footer1, #footer2, #footer3
+    {
+        height: 42px;
+    }
+    .displayNoneDesktop
+    {
+        display: none;
+    }
+    #mobileMenuHeader
+    {
+        display: none;
+    }
+    #mobileSubMenuHeader
+    {
+        display: none;
+    }
+    .shadow
+    {
+        box-shadow: 5px 5px 5px #888888;
+        border-style: solid;
+        border-width: 1px;
+    }
+    .tabSelectorNoshadow
+    {
+        border-style: solid;
+        border-width: 1px;
+    }
+    .displayBlock
+    {
+        display: block;
+    }
+    .marginLeft0per
+    {
+        margin-left: 0% !important;
+    }
+    .marginBottom
+    {
+        margin-bottom: 0% !important;
+    }
+    #divmobileMenu
+    {
+        display: none;
+    }
+    #firstColumn
+    {
+        margin-left: 3%;
+    }
+}
